@@ -92,7 +92,7 @@ In case of popular languages like Typescript, OpenAPI Generators offers even mor
 ### **Useful Resources**
 
 - [Fastify](https://www.fastify.io/): The core framework used for creating the server.
-- [@fastify/swagger](https://github.com/fastify/fastify-swagger): Fastify plugin for serving Swagger UI generated from your routes' schemas.
+- [@fastify/swagger](https://github.com/fastify/fastify-swagger): Fastify plugin for generating OpenAPI/Swagger definition from your routes' schemas.
 - [OpenAPI Generator](https://openapi-generator.tech/): Tool used by the plugin to generate client libraries from OpenAPI specifications.
 
 ## **Contributing**
