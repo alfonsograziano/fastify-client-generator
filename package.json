@@ -1,0 +1,17 @@
+{
+  "name": "fastify-client-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "author": "Alfonso Graziano",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/swagger": "^8.14.0",
+    "@openapitools/openapi-generator-cli": "^2.13.1",
+    "fastify": "^4.26.2",
+    "fastify-plugin": "^4.5.1"
+  }
+}
