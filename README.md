@@ -81,6 +81,8 @@ fastify.register(fastifyClientGenerator, {
 
 Simply run your Fastify application. The plugin generates or updates the TypeScript client based on the current API definitions.
 
+The generation also works in watch mode with tools like nodemon. The clients are regenerated every time the OpenAPI definition change. In case you change your backend and the API schema didn't change, the clients will not be generated.
+
 ### **Potential Usage**
 
 The generated clients can be imported into any application, providing immediate access to typed API functions. This makes API calls straightforward, with editors offering autocompletion for API functions and their parameters.
@@ -95,7 +97,7 @@ In case of popular languages like Typescript, OpenAPI Generators offers even mor
 
 ## **Contributing**
 
-Contributions are welcome! Please submit a pull request or open an issue for any feature requests or bug reports. The generation also works in watch mode with tools like nodemon. The clients are regenerated every time the OpenAPI definition change. In case you change your backend and the API schema didn't change, the clients will not be generated.
+Contributions are welcome! Please submit a pull request or open an issue for any feature requests or bug reports.
 
 ## **License**
 
